@@ -121,14 +121,14 @@ a:hover, #header.nav-solid nav a:hover {
    ================================ */
 
 #banner {
-    background-color: #ff9123;
-    background-image: linear-gradient(135deg, #fcb8c3 33.33%, #fe7b91 33.33%, #ff274b 33.33%);
+    background-color: #ff9123de;
+    background-image: linear-gradient(40deg, #ff3232, transparent);
     background-size: cover;
     height: 100vh;
 }
 
 #banner .section-heading:before {
-    background: var(--gold);
+    background: var(--pink);
     display: none;
 }
 #banner h1 {
@@ -162,7 +162,7 @@ a:hover, #header.nav-solid nav a:hover {
    ================================ */
 
 .section-heading h2:after {
-    background: var(--gold);
+    background: var(--pink);
     content: "";
     display: block;
     width: 30px;
